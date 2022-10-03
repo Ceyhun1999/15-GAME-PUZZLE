@@ -1,0 +1,14 @@
+table { 
+    border-collapse: collapse; 
+    margin: 100px auto;
+    filter: drop-shadow(0 0 3rem #5b4005);
+}
+td {
+    font-size: 2em;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #aaa;
+    text-align: center;
+    color: #fff;
+    font: bold 2em Arial;
+}
