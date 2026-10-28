@@ -1,39 +1,39 @@
 # 15 Puzzle
 
-Классические «пятнашки»: 15 плиток на поле 4×4, которые нужно расставить по порядку.
+The classic sliding puzzle: arrange 15 tiles on a 4×4 board in order from 1 to 15.
 
-**[Играть онлайн →](https://ceyhun1999.github.io/15-GAME-PUZZLE/)**
+**[Play online →](https://ceyhun1999.github.io/15-GAME-PUZZLE/)**
 
-<p align="center"><img src="screenshots/game.png" width="520" alt="15 Puzzle"></p>
+<p align="center"><img src="screenshots/game.png" width="520" alt="15 Puzzle screenshot"></p>
 
-## Как играть
+## How to play
 
-1. Плитки перемешаны, на поле одна пустая клетка.
-2. Нажмите на плитку рядом с пустой клеткой — она сдвинется на её место.
-3. Расставьте числа от 1 до 15 по порядку.
+1. The tiles start shuffled, with one empty cell on the board.
+2. Click a tile next to the empty cell to slide it into the gap.
+3. Put the numbers in order from 1 to 15.
 
-Каждый ход сопровождается звуком.
+Every move plays a sound.
 
-## Структура
+## Project structure
 
 ```
 ├── index.htm
 ├── style.css
-├── javascript.js   # логика поля и ходов
-├── img/            # текстура плиток
-└── sound/          # звук хода
+├── javascript.js   # board and move logic
+├── img/            # tile texture
+└── sound/          # move sound
 ```
 
-## Запуск
+## Run locally
 
-Игра работает без сборки. Откройте `index.htm` в браузере или поднимите локальный сервер:
+No build step. Open `index.htm` in a browser, or start a local server:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-и перейдите на http://localhost:8000.
+Then go to http://localhost:8000.
 
-## Стек
+## Tech stack
 
-HTML · CSS · JavaScript (без библиотек)
+HTML · CSS · JavaScript (no libraries)
